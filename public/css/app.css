@@ -7,6 +7,7 @@
 	font-family: CWMLigth;
 	src:url('../fonts/CWM_Light.otf');
 }
+
 #landing-video{
   background-image: url('../img/fondo-video.jpg');
   background-repeat: no-repeat;
@@ -14,15 +15,26 @@
   height: 560px;
   width: 100%;
 }
-#landing-blockthumb{
-	height: 430px;
+#landing-video .title-landing-video{
+	color:#1c1c1c;
+	line-height: 60px;
+	padding-top: 60px;
+	font-family: CWMLigth;
+	font-size: 75.15px;
+}
+#landing-video .description-landing-video{
+	color: #333333;
+	font-family: CWMLigth;
+	font-size: 24.03px;
+	margin-bottom: 110px;
 }
 #landing-blockthumb .container{
+	/*height: 490px;*/
 	padding-right: 3px;
 	padding-left: 3px;
 }
-#landing-blockthumb .col-md-3 {
-	padding: 5px 3px;
+#landing-blockthumb .col-md-3 ,#landing-blockthumb .col-sm-3 {
+	padding: 5px 3px 50px 3px;
 }
 .inner-blockthumb{
 	background-color: #ffffff;
@@ -36,18 +48,84 @@
 .block-thumb .title-block-thumb{
 	color: #fdcc01;
 	font-family: CWMLigth;
-	font-size: 25.32px;
+	font-size: 33px;
 	padding-top: 50px;
 	padding-bottom: 30px;
 }
 .block-thumb .description-block-thumb{
 	color: #ffffff;
 	font-family: CWMLigth;
-	font-size: 15.02px;
+	font-size: 18px;
 	padding: 10px 20px;
 }
 .block-thumb .block-img-thumb{
 	/*width: 100%;*/
-	width: 172px;
-	height: 122px;
+	width: 169px;
+	height: 120px;
+	margin-top: 40px;
+}
+.srx{
+  background-color: #130f0f;
+  background-image: url('../img/srx-general.jpg');/*Esta imagen la he cortado yo */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 669px;
+  width: 100%;
+}
+
+.srx-title{
+	text-align: center;
+	color:#b7b8b9;
+	font-family: CWMLigth;
+	font-size: 120px;
+}
+
+.srx-more{
+	width: 100%;
+}
+
+.srx-more .src-more-title{
+	color:#222222;
+	font-family: CWMLigth;
+	font-size: 25.28px;
+}
+
+.block-srx-more{
+	padding-top: 60px;
+}
+
+.block-srx-more img{
+	padding-bottom: 30px;
+}
+.srx-more .btnhere-src-more{
+	background-color: #fdcc01;
+	color: #000000;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 18px;
+	padding-right: 18px;
+	font-family: CWMLigth;
+	font-size: 25.28px;
+}
+.containerbtn{
+	padding: 30px 0px;	
+}
+
+.form-contact .btnsubmit-form{
+	background-color: #fdcc01;
+	border:0px;
+	color: #000000;
+	font-family: CWMLigth;
+	font-size: 28.66px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 240px) and (max-width : 480px) {
+	#landing-video .title-landing-video{
+		font-size: 60px;
+	}
 }
