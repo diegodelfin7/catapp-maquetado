@@ -123,7 +123,7 @@
 	padding-right: 60px;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
+/* Smartphones (titulo landing) ----------- */
 @media only screen and (min-width : 240px) and (max-width : 480px) {
 	#landing-video .title-landing-video{
 		font-size: 60px;
