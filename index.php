@@ -76,16 +76,16 @@
 	</div>
 	<div class="form-contact">
 		<div class="container">
-			<h2 class="text-center">CONTÁCTANOS</h2>
+			<div class="text-center title-form-contact">CONTÁCTANOS</div>
 			<form>
 				<div class="form-group">
-					<input type="text" placeholder="NOMBRE" class="form-control" />
+					<input type="text" placeholder="NOMBRE" class="form-control css-placeholder" id="nameFormContact" />
 				</div>
 				<div class="form-group">
-					<input type="text" placeholder="MAIL" class="form-control" />
+					<input type="email" placeholder="MAIL" class="form-control css-placeholder" />
 				</div>
 				<div class="form-group">
-					<textarea rows="9" cols="50" placeholder="DESCRIPCIÓN"  class="form-control" ></textarea>
+					<textarea rows="9" cols="50" placeholder="DESCRIPCIÓN"  class="form-control css-placeholder" ></textarea>
 				</div>
 				<div class="form-group">
 					<label class="col-md-4 control-label" for="singlebutton"></label>

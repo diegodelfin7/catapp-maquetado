@@ -116,16 +116,54 @@
 	border:0px;
 	color: #000000;
 	font-family: CWMLigth;
-	font-size: 28.66px;
+	font-size: 29px;
 	padding-top: 10px;
 	padding-bottom: 0px;
 	padding-left: 60px;
 	padding-right: 60px;
 }
 
+.form-contact .title-form-contact{
+	color:#000000;
+	font-family: CWMLigth;
+	font-size: 40px;
+}
+.form-contact input[type="text"],.form-contact input[type="email"]{
+	padding: 24px 12px;
+}
+
+.form-contact input[type="text"],.form-contact input[type="email"],.form-contact textarea{
+	background-color: #000000;
+	color: #ffffff;
+	font-family: CWMLigth;
+	font-size: 25px;
+}
+/*
+#nameFormContact ::-webkit-input-placeholder{
+	color #eee;
+}
+*/
+.css-placeholder::-webkit-input-placeholder { color: white; } /* WebKit */
+.css-placeholder:-moz-placeholder { color: white; } /* Firefox 18- */
+.css-placeholder::-moz-placeholder { color: white; } /* Firefox 19+ */
+.css-placeholder:-ms-input-placeholder { color: white; } 
+
 /* Smartphones (titulo landing) ----------- */
 @media only screen and (min-width : 240px) and (max-width : 480px) {
 	#landing-video .title-landing-video{
 		font-size: 60px;
+	}
+	#landing-video .description-landing-video{
+		font-size: 20px;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (max-width : 320px) {
+	#landing-video .title-landing-video{
+		font-size: 40px;
+	}
+	#landing-video .description-landing-video{
+		font-size: 16px;
 	}
 }
