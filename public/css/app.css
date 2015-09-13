@@ -78,31 +78,31 @@
   width: 100%;
 }
 
-.srx-title{
+.srx-title,.itech-title,.ergo-title,.ergo-lite-title{
 	text-align: center;
 	color:#b7b8b9;
 	font-family: CWMLigth;
 	font-size: 120px;
 }
 
-.srx-more{
+.srx-more,.itech-more,.ergo-more,.ergo-lite-more{
 	width: 100%;
 }
 
-.srx-more .src-more-title{
+.srx-more .src-more-title,.itech-more .itech-more-title,.ergo-more .ergo-more-title,.ergo-lite-more .ergo-lite-more-title{
 	color:#222222;
 	font-family: CWMLigth;
 	font-size: 25.28px;
 }
 
-.block-srx-more{
+.block-srx-more,.block-itech-more,.block-ergo-more,.block-ergo-lite-more,.block-ergo-lite-more{
 	padding-top: 60px;
 }
 
-.block-srx-more img{
+.block-srx-more img,.block-itech-more img,.block-ergo-more img,.block-ergo-lite-more img{
 	padding-bottom: 30px;
 }
-.srx-more .btnhere-src-more{
+.srx-more .btnhere-src-more,.itech-more .btnhere-itech-more,.ergo-more .btnhere-ergo-more,.ergo-lite-more .btnhere-ergo-lite-more{
 	background-color: #fdcc01;
 	color: #000000;
 	padding-top: 16px;
@@ -185,7 +185,6 @@
 
 
 
-/* Smartphones (titulo landing) ----------- */
 @media only screen and (min-width : 240px) and (max-width : 480px) {
 	#landing-video .title-landing-video{
 		font-size: 60px;
@@ -195,7 +194,6 @@
 	}
 }
 
-/* Desktops and laptops ----------- */
 @media only screen and (max-width : 320px) {
 	#landing-video .title-landing-video{
 		font-size: 40px;
@@ -211,3 +209,29 @@
 	}
 }
 
+@media only screen and (max-width: 768px){
+	.srx-title,.itech-title,.ergo-title,.ergo-lite-title{
+		font-size: 80px;
+	}
+}		
+@media only screen and (max-width: 540px){
+	.srx-title,.itech-title,.ergo-title,.ergo-lite-title{
+		font-size: 40px;
+	}
+}	
+
+@media only screen and (max-width: 240px){
+	.block-srx-more img, .block-itech-more img, .block-ergo-more img, .block-ergo-lite-more img{
+		width: 100%;
+	}
+	.srx-title,.itech-title,.ergo-title,.ergo-lite-title{
+		font-size: 22px;
+	}
+	.srx-more .btnhere-src-more, .itech-more .btnhere-itech-more, .ergo-more .btnhere-ergo-more, .ergo-lite-more .btnhere-ergo-lite-more{
+		padding: 6px 12px;
+		font-size: 20px;
+	}
+	.srx-more .src-more-title, .itech-more .itech-more-title, .ergo-more .ergo-more-title, .ergo-lite-more .ergo-lite-more-title{
+		font-size: 20px;
+	}
+}
