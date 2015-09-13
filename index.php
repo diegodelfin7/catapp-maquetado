@@ -49,6 +49,7 @@
 	<div class="srx">
 		<div class="srx-title">SRX</div>
 	</div>
+	
 	<div class="srx-more">
 		<div class="container text-center">
 			<div class="col-md-4">
@@ -74,6 +75,59 @@
 			<a href="#" class="btnhere-src-more">DESCUBRE MÁS AQUÍ</a>
 		</div>
 	</div>
+	<div class="feat-tech">
+		<div class="title-feat-tech">
+			FEATURES Y TECNOLOGÍAS
+		</div>
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="item-feat-tech">
+						<div class="itemtit-feat-tech">Punta COMPUESTA</div>
+						<img src="public/img/feature1.jpg" alt="" />
+						<div class="itemdes-feat-tech">PUNTA NO METÁLICA INDETECTABLE EN LUGARES DE SEGURIDAD ELECTRÓNICA</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="item-feat-tech">
+						<div class="itemtit-feat-tech">PUNTA DE ACERO</div>
+						<img src="public/img/feature2.jpg" alt="" />
+						<div class="itemdes-feat-tech">PUNTA ULTRA RESISTENTE CONTRA IMPACTOS Y COMPRESIONES</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="item-feat-tech">
+						<div class="itemtit-feat-tech">RESISTENCIA AL GUA</div>
+						<img src="public/img/feature3.jpg" alt="" />
+						<div class="itemdes-feat-tech">MANTIENE LA HUMEDAD FUERA CON CUEROS Y COSTURAS IMPERMEABLES</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="item-feat-tech">
+						<div class="itemtit-feat-tech">RIESGO ELÉCTRICO</div>
+						<img src="public/img/feature4.jpg" alt="" />
+						<div class="itemdes-feat-tech">PROTECCIÓN CONTRA CIRCUITOS ABIERTOS HASTA 18.000 VOLTIOS</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="item-feat-tech">
+						<div class="itemtit-feat-tech">ANTIDESLIZANTE</div>
+						<img src="public/img/feature5.jpg" alt="" />
+						<div class="itemdes-feat-tech">SUELA CON REDUCCIÓN DE REISGO ANTE CAÍDAS Y RESBALONES</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="item-feat-tech">
+						<div class="itemtit-feat-tech">DISIPACIÓN ESTÁTICA</div>
+						<img src="public/img/feature6.jpg" alt="" />
+						<div class="itemdes-feat-tech">REDUCEN AL MINIMO LA ACUMULACIÓN DE ELECTRICIDAD ESTÁTICA</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
 	<div class="form-contact">
 		<div class="container">
 			<div class="text-center title-form-contact">CONTÁCTANOS</div>
@@ -88,8 +142,7 @@
 					<textarea rows="9" cols="50" placeholder="DESCRIPCIÓN"  class="form-control css-placeholder" ></textarea>
 				</div>
 				<div class="form-group">
-					<label class="col-md-4 control-label" for="singlebutton"></label>
-	   				<div class="col-md-4 text-center">
+	   				<div class="text-center">
 	        			<button type="submit" class="btnsubmit-form">Enviar</button>
 	    			</div>
 				</div>

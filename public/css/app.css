@@ -8,6 +8,11 @@
 	src:url('../fonts/CWM_Light.otf');
 }
 
+@font-face{
+	font-family: BebasNeue-Regular;
+	src:url('../fonts/BebasNeue_Regular.otf');
+}
+
 #landing-video{
   background-image: url('../img/fondo-video.jpg');
   background-repeat: no-repeat;
@@ -127,6 +132,7 @@
 	color:#000000;
 	font-family: CWMLigth;
 	font-size: 40px;
+	padding: 30px 0px 10px 0px;
 }
 .form-contact input[type="text"],.form-contact input[type="email"]{
 	padding: 24px 12px;
@@ -138,15 +144,46 @@
 	font-family: CWMLigth;
 	font-size: 25px;
 }
-/*
-#nameFormContact ::-webkit-input-placeholder{
-	color #eee;
+
+.form-contact .form-group:last-child{
+	margin-bottom: 60px;
 }
-*/
+
 .css-placeholder::-webkit-input-placeholder { color: white; } /* WebKit */
 .css-placeholder:-moz-placeholder { color: white; } /* Firefox 18- */
 .css-placeholder::-moz-placeholder { color: white; } /* Firefox 19+ */
 .css-placeholder:-ms-input-placeholder { color: white; } 
+
+.feat-tech{ background-color: #000000;}
+.feat-tech .title-feat-tech{
+	color: #fdcc01;
+	text-align: center;
+	font-family: CWMLigth;
+	font-size: 36px;
+	padding: 30px 0px;
+}
+.feat-tech .item-feat-tech{
+	margin: 10px auto 70px auto;
+	width: 188px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+.feat-tech .itemtit-feat-tech{
+	font-family: CWMLigth;
+	font-size: 16.02px;
+	padding: 20px 0px;
+}
+.item-feat-tech img{
+	width: 111px;
+	/*height: 62px;*/
+}
+.feat-tech .itemdes-feat-tech{
+	font-family: BebasNeue-Regular;
+	font-size: 18.1px;
+	padding: 20px 24px;
+}
+
+
 
 /* Smartphones (titulo landing) ----------- */
 @media only screen and (min-width : 240px) and (max-width : 480px) {
@@ -167,3 +204,10 @@
 		font-size: 16px;
 	}
 }
+
+@media only screen and (max-width: 991px){
+	.feat-tech .item-feat-tech{
+		width: 100%;
+	}
+}
+
